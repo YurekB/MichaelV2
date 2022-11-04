@@ -1,0 +1,29 @@
+.main-img {
+  width: 100%;
+}
+
+.home-project-pics {
+  width: 93%;
+  display: flex;
+  gap: 3%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.home-project-pics img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+}
+
+.home-project-pics p {
+  font-size: x-large;
+  font-weight: 500;
+  text-align: left;
+}
+
+.home-project-pics div {
+  width: 48%;
+  padding-bottom: 2%;
+}
