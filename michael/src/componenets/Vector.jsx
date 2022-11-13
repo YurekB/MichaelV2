@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Vector = () => {
   return (
     <div className="vector">
@@ -8,7 +10,9 @@ const Vector = () => {
           internationally. Please get in touch and one of our project managers
           will contact you about beginning the proposal process.
         </p>
-        <button>Contact Us</button>
+        <Link to="/contact">
+          <button>Contact Us</button>
+        </Link>
       </div>
     </div>
   );

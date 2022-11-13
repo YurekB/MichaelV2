@@ -9,7 +9,7 @@ header {
   display: flex;
   margin-left: 4%;
   height: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .active {
@@ -58,9 +58,9 @@ p {
 }
 
 .home-top h2 {
-  width: 80%;
+  width: 65%;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 header h1 {
@@ -69,6 +69,7 @@ header h1 {
 
 .main-img {
   width: 100%;
+  margin-top: 30px;
 }
 
 .home-project-pics {
@@ -109,6 +110,10 @@ header h1 {
   margin-left: 4%;
 }
 
+.vector p {
+  margin-left: 0px;
+}
+
 .vector h2 {
   font-size: 44px;
   padding-top: 100px;
@@ -128,6 +133,18 @@ header h1 {
 .vector button:hover {
   background-color: rgb(174, 174, 174);
   cursor: pointer;
+}
+
+.home h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.recent-text {
+  width: 600px;
+  max-width: 90vw;
+  font-weight: 300;
+  margin-bottom: 100px;
 }
 
 footer {

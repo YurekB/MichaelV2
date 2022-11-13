@@ -7,9 +7,9 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./componenets/Footer";
 import { useState } from "react";
+import IndividualProject from "./pages/IndividualProject";
 function App() {
   const [activePage, setActivePage] = useState("home");
-  console.log(activePage, "ACTIVEPAGE");
   return (
     <BrowserRouter>
       <div className="App">
@@ -37,6 +37,15 @@ function App() {
             path="/contact"
             element={
               <Contact activePage={activePage} setActivePage={setActivePage} />
+            }
+          />
+          <Route
+            path="/projects/:project_id"
+            element={
+              <IndividualProject
+                activePage={activePage}
+                setActivePage={setActivePage}
+              />
             }
           />
         </Routes>

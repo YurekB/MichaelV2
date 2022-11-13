@@ -4,7 +4,7 @@ const Header = ({ activePage }) => {
   return (
     <header>
       <div className="header-title">
-        <h1>Michael Cupial Architect</h1>
+        <h1>Michael Cupial</h1>
       </div>
       <div className="links">
         <Link className={activePage === "home" ? "active" : ""} to="/">

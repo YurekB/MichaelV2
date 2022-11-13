@@ -3,6 +3,7 @@ import { useEffect } from "react";
 const Projects = ({ setActivePage, activePage }) => {
   useEffect(() => {
     setActivePage("projects");
+    window.scrollTo(0, 0);
   }, [setActivePage]);
   return (
     <div className="projects">
