@@ -31,26 +31,26 @@ const Home = ({ activePage, setActivePage }) => {
       </div>
       <div className="home-project-pics">
         <div className="main-image-1">
-          <Link to="/projects/1">
+          <Link to="/projects/0">
             <img src="/images/temp/fill1.jpeg" alt="fill1" />
             <p>Project one</p>
           </Link>
         </div>
 
         <div className="main-image-2">
-          <Link to="/projects/2">
+          <Link to="/projects/1">
             <img src="/images/temp/fill2.jpeg" alt="fill2" />
             <p>Project two</p>
           </Link>
         </div>
         <div className="main-image-3">
-          <Link to="/projects/3">
+          <Link to="/projects/2">
             <img src="/images/temp/fill3.jpeg" alt="fill3" />
             <p>Project three</p>
           </Link>
         </div>
         <div className="main-image-4">
-          <Link to="/projects/4">
+          <Link to="/projects/3">
             <img src="/images/temp/fill4.jpeg" alt="fill4" />
             <p>Project four</p>
           </Link>

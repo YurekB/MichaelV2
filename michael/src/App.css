@@ -100,7 +100,7 @@ header h1 {
 
 .vector {
   color: white;
-  background-color: #28282a;
+  background-color: #38383a;
   padding-bottom: 50px;
 }
 
@@ -168,4 +168,28 @@ footer h3 {
 .footer-details p {
   margin-right: 150px;
   width: 200px;
+}
+
+.contact-page {
+  display: flex;
+  margin-left: 4%;
+}
+
+.contact-page-left {
+  width: 50%;
+}
+
+.contact-page-left h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.contact-page-left p {
+  margin-left: 0px;
+  width: 60%;
+  font-weight: 200;
+}
+
+.contact-page-right {
+  width: 50%;
 }
