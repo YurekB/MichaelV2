@@ -51,12 +51,6 @@ a:hover {
   transition: all 0.3s ease;
 }
 
-.home-top h2,
-h3,
-p {
-  margin-left: 4%;
-}
-
 .home-top h2 {
   width: 65%;
   font-weight: 400;
@@ -86,6 +80,10 @@ header h1 {
   height: 415px;
 
   object-fit: cover;
+}
+
+.home-project-pics img:hover {
+  opacity: 75%;
 }
 
 .home-project-pics p {
@@ -157,6 +155,7 @@ footer {
 footer h3 {
   font-weight: 400;
   font-size: 34px;
+  border-left: 0px;
 }
 
 .footer-details {
@@ -180,13 +179,13 @@ footer h3 {
 }
 
 .contact-page-left h1 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 40px;
 }
 
 .contact-page-left p {
   margin-left: 0px;
-  width: 60%;
+  width: 75%;
   font-weight: 200;
 }
 

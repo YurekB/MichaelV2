@@ -4,10 +4,10 @@ import Header from "./componenets/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
 import Footer from "./componenets/Footer";
 import { useState } from "react";
 import IndividualProject from "./pages/IndividualProject";
+import Contact from "./pages/contact/Contact";
 function App() {
   const [activePage, setActivePage] = useState("home");
   return (
