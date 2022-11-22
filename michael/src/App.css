@@ -172,6 +172,7 @@ footer h3 {
 .contact-page {
   display: flex;
   margin-left: 4%;
+  margin-right: 4%;
 }
 
 .contact-page-left {
@@ -180,13 +181,14 @@ footer h3 {
 
 .contact-page-left h1 {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .contact-page-left p {
   margin-left: 0px;
-  width: 75%;
-  font-weight: 200;
+  margin-bottom: 50px;
+  width: 80%;
+  font-weight: 300;
 }
 
 .contact-page-right {

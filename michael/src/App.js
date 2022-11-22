@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./componenets/Header";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./pages/about";
 import Projects from "./pages/Projects";
 import Footer from "./componenets/Footer";
 import { useState } from "react";

@@ -1,4 +1,4 @@
-import Form from "../../componenets/Form";
+import Form from "../../componenets/form";
 import { useEffect } from "react";
 import { ContactAdd, Text } from "./styles";
 
