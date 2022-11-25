@@ -8,6 +8,8 @@ body * {
 header {
   display: flex;
   margin-left: 4%;
+  margin-right: 4%;
+
   height: 100px;
   margin-bottom: 100px;
 }
@@ -55,6 +57,15 @@ a:hover {
   width: 65%;
   font-weight: 400;
   font-size: 55px;
+  margin-left: 4%;
+}
+
+.home-top h3 {
+  margin-left: 4%;
+}
+
+.home-top p {
+  margin-left: 4%;
 }
 
 header h1 {
@@ -64,36 +75,6 @@ header h1 {
 .main-img {
   width: 100%;
   margin-top: 30px;
-}
-
-.home-project-pics {
-  width: 93%;
-  display: flex;
-  gap: 3%;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: 4%;
-}
-
-.home-project-pics img {
-  width: 630px;
-  height: 415px;
-
-  object-fit: cover;
-}
-
-.home-project-pics img:hover {
-  opacity: 75%;
-}
-
-.home-project-pics p {
-  font-size: x-large;
-  font-weight: 500;
-  text-align: left;
-}
-
-.home-project-pics div {
-  padding-bottom: 2%;
 }
 
 .vector {
