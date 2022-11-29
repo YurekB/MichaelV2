@@ -21,7 +21,7 @@ const Home = ({ activePage, setActivePage }) => {
           src="/images/mainwide.jpg"
           alt="back extension of house"
         />
-        <h3>Our Work</h3>
+        <h3>Some of our work</h3>
       </div>
       <HomeProjects />
       <Vector />

@@ -61,7 +61,9 @@ a:hover {
 }
 
 .home-top h3 {
-  margin-left: 4%;
+  /* margin-left: 8%; */
+  text-align: center;
+  margin-bottom: 75px;
 }
 
 .home-top p {
@@ -75,6 +77,7 @@ header h1 {
 .main-img {
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .vector {
