@@ -8,6 +8,7 @@ import Footer from "./componenets/Footer";
 import { useEffect, useState } from "react";
 import IndividualProject from "./pages/individualProject";
 import Contact from "./pages/contact/Contact";
+import Pruszowice from "./pages/pruszowice";
 function App() {
   const [activePage, setActivePage] = useState("home");
 
@@ -44,6 +45,15 @@ function App() {
             path="/projects/:project_id"
             element={
               <IndividualProject
+                activePage={activePage}
+                setActivePage={setActivePage}
+              />
+            }
+          />
+          <Route
+            path="/projects/pruszowice"
+            element={
+              <Pruszowice
                 activePage={activePage}
                 setActivePage={setActivePage}
               />

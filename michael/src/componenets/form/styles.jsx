@@ -16,6 +16,19 @@ export const Input = styled.input`
   }
 `;
 
+export const ThankContainer = styled.div``;
+
+export const ThankHead = styled.h2`
+  font-weight: 500;
+  font-size: 45px;
+`;
+
+export const ThankText = styled.p`
+  width: 80%;
+  font-weight: 300;
+  font-size: 20px;
+`;
+
 export const EmailInput = styled.input`
   height: 35px;
   background-color: #f8f5f5;

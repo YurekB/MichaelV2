@@ -9,6 +9,9 @@ import {
   Input,
   Label,
   TextArea,
+  ThankContainer,
+  ThankHead,
+  ThankText,
 } from "./styles";
 
 const Form = () => {
@@ -25,10 +28,10 @@ const Form = () => {
 
   if (submitted) {
     return (
-      <div className="thankYou">
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
-      </div>
+      <ThankContainer>
+        <ThankHead>Thank you!</ThankHead>
+        <ThankText>We'll be in touch soon.</ThankText>
+      </ThankContainer>
     );
   }
 

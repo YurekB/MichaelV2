@@ -6,7 +6,11 @@ import {
   Contact,
   Head,
   MainText,
+  MainTextHeader,
+  MidContainer,
+  MidContainerRight,
   TextContainer,
+  TextContainer2,
   TopInfoSection,
   VectorContainer,
 } from "./styles";
@@ -24,35 +28,91 @@ const About = ({ setActivePage, activePage }) => {
         <Head>About</Head>
         <TextContainer>
           <MainText>
-            We think of architecture not as a single practice, but as several
-            interlocking ones. Landscapes are inseparable from structures,
-            ecology is inseparable from building requirements, and improving
-            human relationships is the ultimate goal of any project. Aesthetic
-            movements come and go, but we have found these principles to be
-            timeless.
+            We are based in Prestwich and offer a range of contemporary,
+            creative and personal architectural services. Using our extensive
+            expertise we will guide you through all aspects of building design,
+            construction and project management.
           </MainText>
           <MainText>
-            As partners, we strive for honesty and clarity. Our first job is to
-            understand the client’s vision and needs, not to present our own. We
-            value timeliness, direct communication and prototypes over
-            presentations, as well as the occasional face-to-face meeting over a
-            drink or a meal.
+            We are specialising in new build housing, domestic works,
+            extensions, loft conversions, whole house refurbishment and
+            remodelling.
           </MainText>
           <MainText>
-            Over the years, we have been fortunate to collaborate with some
-            excellent clients on some wonderful projects, but we believe it is
-            still too early to weigh in on the success of the work. A building
-            exists in time and its usefulness is directly related to how well it
-            continues to perform.
-          </MainText>
-          <MainText>
-            We are proud of our Danish home and heritage, but do not consider
-            ourselves exponents of Danish design. National style has no place in
-            architecture, where a building must first and foremost be suited to
-            local needs.
+            Contact us if you are planning to extend or alter your home, build a
+            new home or if you want to go green and make your home energy
+            efficient or if you simply need to ‘draw and explore’ your ideas.
           </MainText>
         </TextContainer>
       </TopInfoSection>
+      <MidContainer>
+        <Head>Services we offer</Head>
+        <MidContainerRight>
+          <TextContainer2>
+            <MainTextHeader>Site investigation/consultation</MainTextHeader>
+            <MainText>
+              One-off site visit up to two hours to determine feasibility of
+              your project, advice on services required and implication on
+              particular design.
+            </MainText>
+          </TextContainer2>
+          <TextContainer2>
+            <MainTextHeader>
+              Feasibility Study and Outline proposal
+            </MainTextHeader>
+            <MainText>
+              Before full commitment to the project we can offer an initial
+              feasibility study to assess viability of your proposed
+              requirements.
+            </MainText>
+          </TextContainer2>
+          <TextContainer2>
+            <MainTextHeader>Planning/Local Authority approvals</MainTextHeader>
+            <MainText>
+              Production and submission of documentation for Local Authority
+              planning approval including pre- planning consultation and during
+              application process liaison.
+            </MainText>
+          </TextContainer2>
+          <TextContainer2>
+            <MainTextHeader>Building Control approvals</MainTextHeader>
+            <MainText>
+              Design/production and submission of construction drawings and
+              specification for Building Control approval.
+            </MainText>
+          </TextContainer2>
+          <TextContainer2>
+            <MainTextHeader>Tender Documentation</MainTextHeader>
+            <MainText>
+              Production of suitably detailed documentation for your contractor
+              to price.
+            </MainText>
+          </TextContainer2>
+          <TextContainer2>
+            <MainTextHeader>
+              Detailed Construction Drawings/Specification
+            </MainTextHeader>
+            <MainText>
+              With more complex projects we offer detailed construction drawings
+              and specifications including full coordination with the design
+              team/consultants and your suppliers.
+            </MainText>
+          </TextContainer2>
+
+          <TextContainer2>
+            <MainTextHeader>Party Wall agreements</MainTextHeader>
+            <MainText>
+              We provide party wall services inspecting the proposed works and
+              possible effects on neighbouring properties, before, after and
+              sometimes during construction, in order to report and hopefully
+              mitigate damage to the neighbouring properties.
+            </MainText>
+          </TextContainer2>
+          <TextContainer2>
+            <MainTextHeader>Free design costs estimate</MainTextHeader>
+          </TextContainer2>
+        </MidContainerRight>
+      </MidContainer>
       <VectorContainer>
         <Vector />
       </VectorContainer>

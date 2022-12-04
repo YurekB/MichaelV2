@@ -15,7 +15,7 @@ const HomeProjects = () => {
   return (
     <Container>
       <ProjectContainer>
-        <Link to="/projects/1">
+        <Link to="/projects/pruszowice">
           <Image src={poland} />
           <ProjectName>Pruszowice, Poland</ProjectName>
         </Link>

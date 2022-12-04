@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <footer>
-      <h3>Utica</h3>
+      <h3>Michael Cupial</h3>
       <div className="footer-details">
-        <p>123 Demo Street Copenhagen, Denmark</p>
+        <p>Prestwich, Manchester England</p>
         <p>(555) 555-5555 email@example.com</p>
       </div>
     </footer>
