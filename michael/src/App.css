@@ -29,6 +29,11 @@ header {
   margin-top: 50px;
   font-weight: 400;
   font-size: 26px;
+  width: fit-content;
+}
+
+.header-title h1:hover {
+  cursor: pointer;
 }
 
 .links {

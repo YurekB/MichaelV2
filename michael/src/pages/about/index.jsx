@@ -109,7 +109,15 @@ const About = ({ setActivePage, activePage }) => {
             </MainText>
           </TextContainer2>
           <TextContainer2>
-            <MainTextHeader>Free design costs estimate</MainTextHeader>
+            <MainTextHeader>FEE PRICING</MainTextHeader>
+            <MainText>
+              The core of our services is the ability to provide tailor made
+              services for all clients. For this reason, all jobs are priced on
+              an individual basis. Jobs are either estimated in full, or work on
+              a predetermined hourly / daily rate. This is usually decided
+              through client discussion, and revolves around factors including
+              type of work, client's requirements and preparation.
+            </MainText>
           </TextContainer2>
         </MidContainerRight>
       </MidContainer>

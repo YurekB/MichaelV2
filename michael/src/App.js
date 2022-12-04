@@ -9,6 +9,9 @@ import { useEffect, useState } from "react";
 import IndividualProject from "./pages/individualProject";
 import Contact from "./pages/contact/Contact";
 import Pruszowice from "./pages/pruszowice";
+import Cranbrook from "./pages/cranbrook";
+import Cuckoo from "./pages/cuckoo";
+import Amerland from "./pages/amerland";
 function App() {
   const [activePage, setActivePage] = useState("home");
 
@@ -57,6 +60,27 @@ function App() {
                 activePage={activePage}
                 setActivePage={setActivePage}
               />
+            }
+          />
+          <Route
+            path="/projects/cranbrook"
+            element={
+              <Cranbrook
+                activePage={activePage}
+                setActivePage={setActivePage}
+              />
+            }
+          />
+          <Route
+            path="/projects/cuckoo"
+            element={
+              <Cuckoo activePage={activePage} setActivePage={setActivePage} />
+            }
+          />
+          <Route
+            path="/projects/amerland"
+            element={
+              <Amerland activePage={activePage} setActivePage={setActivePage} />
             }
           />
         </Routes>

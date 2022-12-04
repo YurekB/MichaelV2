@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = ({ activePage }) => {
+  const navigate = useNavigate();
+
+  const onClick = () => {
+    navigate("/");
+  };
+
   return (
     <header>
       <div className="header-title">
-        <Link to="/">
-          <h1>Michael Cupial</h1>
-        </Link>
+        <h1 onClick={onClick}>Michael Cupial</h1>
       </div>
       <div className="links">
         <Link className={activePage === "home" ? "active" : ""} to="/">

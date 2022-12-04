@@ -8,7 +8,7 @@ import {
 import { Link } from "react-router-dom";
 import poland from "../../assets/poland/main.JPG";
 import cran from "../../assets/cranbrook/main.jpg";
-import cuckoo from "../../assets/cuckoo/main.JPG";
+import cuckoo from "../../assets/cuckoo/3.JPG";
 import amerland from "../../assets/amerland/main.jpg";
 
 const HomeProjects = () => {
@@ -21,19 +21,19 @@ const HomeProjects = () => {
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/projects/2">
+        <Link to="/projects/cranbrook">
           <Image2 src={cran} />
           <ProjectName>Cranbrook Road</ProjectName>
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/projects/3">
+        <Link to="/projects/cuckoo">
           <Image2 src={cuckoo} />
           <ProjectName>Cuckoo Lane</ProjectName>
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/projects/4">
+        <Link to="/projects/amerland">
           <Image2 src={amerland} />
           <ProjectName>Amerland Road</ProjectName>
         </Link>
