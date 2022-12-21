@@ -5,6 +5,12 @@ export const Container = styled.div`
   flex-wrap: wrap;
   margin: 0 8% 100px 8%;
   justify-content: space-between;
+  @media (max-width: 1000px) {
+    margin: 0 2% 0px 2%;
+  }
+  @media (max-width: 500px) {
+    margin: 0 20px 0px 20px;
+  }
 `;
 
 export const ProjectContainer = styled.div`
@@ -15,11 +21,17 @@ export const ProjectContainer = styled.div`
     opacity: 80%;
     color: #2b2b2b;
   }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;
 
 export const Image = styled.img`
   height: 395px;
   width: 100%;
+  @media (max-width: 500px) {
+    height: auto;
+  }
 `;
 
 export const ProjectName = styled.p`

@@ -91,10 +91,19 @@ export const FieldContainer = styled.div`
   flex-direction: column;
   width: 100%;
   margin-bottom: 20px;
+  @media (max-width: 500px) {
+    width: 92%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 `;
 
 export const FormTopContainer = styled.div`
   display: flex;
   gap: 20px;
   width: 100%;
+  @media (max-width: 500px) {
+    width: 92%;
+    margin: auto;
+  }
 `;

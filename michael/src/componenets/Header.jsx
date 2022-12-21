@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import arb from "../assets/arb.png";
 
 const Header = ({ activePage }) => {
   const navigate = useNavigate();
@@ -10,8 +11,9 @@ const Header = ({ activePage }) => {
 
   return (
     <header>
+      <img src={arb} />
       <div className="header-title">
-        <h1 onClick={onClick}>Michael Cupial</h1>
+        <h1 onClick={onClick}>Michael Cupial Architect</h1>
       </div>
       <div className="links">
         <Link className={activePage === "home" ? "active" : ""} to="/">

@@ -5,13 +5,41 @@ body * {
   font-style: normal;
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: auto;
+}
+
 header {
   display: flex;
   margin-left: 4%;
   margin-right: 4%;
-
+  align-items: center;
   height: 100px;
   margin-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+  header {
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: fit-content;
+    margin-top: 25px;
+  }
+}
+
+header img {
+  width: 100px;
+  margin-right: 50px;
+  /* height: 50px; */
+}
+
+@media (max-width: 1000px) {
+  header img {
+    display: none;
+  }
 }
 
 .active {
@@ -25,11 +53,26 @@ header {
   white-space: nowrap;
 }
 
+@media (max-width: 500px) {
+  .header-title {
+    overflow: visible;
+  }
+}
+
 .header-title h1 {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   font-weight: 400;
   font-size: 26px;
   width: fit-content;
+}
+
+@media (max-width: 1000px) {
+  .header-title h1 {
+    margin-bottom: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
 }
 
 .header-title h1:hover {
@@ -40,7 +83,13 @@ header {
   width: 60%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+}
+
+@media (max-width: 500px) {
+  .links {
+    width: 100%;
+  }
 }
 
 a:link,
@@ -65,10 +114,34 @@ a:hover {
   margin-left: 4%;
 }
 
+@media (max-width: 1000px) {
+  .home-top h2 {
+    width: 500px;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-top h2 {
+    width: 335px;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 35px;
+  }
+}
+
 .home-top h3 {
   /* margin-left: 8%; */
   text-align: center;
   margin-bottom: 75px;
+}
+
+@media (max-width: 500px) {
+  .home-top h3 {
+    margin-bottom: 25px;
+  }
 }
 
 .home-top p {
@@ -85,6 +158,17 @@ header h1 {
   margin-bottom: 100px;
 }
 
+@media (max-width: 500px) {
+  .main-img {
+    width: 375px;
+    height: 300px;
+    /* margin-left: -350px; */
+    object-fit: cover;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+  }
+}
+
 .vector {
   color: white;
   background-color: #38383a;
@@ -97,6 +181,13 @@ header h1 {
   margin-left: 4%;
 }
 
+@media (max-width: 1000px) {
+  .vector div {
+    width: 335px;
+    margin: auto;
+  }
+}
+
 .vector p {
   margin-left: 0px;
 }
@@ -105,6 +196,13 @@ header h1 {
   font-size: 44px;
   padding-top: 100px;
   font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .vector h2 {
+    padding-top: 25px;
+    font-size: 33px;
+  }
 }
 
 .vector button {
@@ -117,6 +215,12 @@ header h1 {
   margin-bottom: 50px;
 }
 
+@media (max-width: 1000px) {
+  .vector button {
+    width: 335px;
+  }
+}
+
 .vector button:hover {
   background-color: rgb(174, 174, 174);
   cursor: pointer;
@@ -125,6 +229,12 @@ header h1 {
 .home h3 {
   font-size: 40px;
   font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .home h3 {
+    font-size: 25px;
+  }
 }
 
 .recent-text {
@@ -153,6 +263,12 @@ footer h3 {
   flex-wrap: wrap;
 }
 
+@media (max-width: 1000px) {
+  .footer-details {
+    width: 335px;
+  }
+}
+
 .footer-details p {
   margin-right: 150px;
   width: 200px;
@@ -164,13 +280,40 @@ footer h3 {
   margin-right: 4%;
 }
 
+@media (max-width: 500px) {
+  .contact-page {
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
 .contact-page-left {
   width: 50%;
+}
+
+@media (max-width: 500px) {
+  .contact-page-left {
+    width: 100%;
+  }
 }
 
 .contact-page-left h1 {
   font-weight: 500;
   font-size: 45px;
+}
+
+@media (max-width: 500px) {
+  .contact-page-left h1 {
+    font-size: 35px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 25px;
+    color: white;
+    background-color: #38383a;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .contact-page-left p {
@@ -180,6 +323,19 @@ footer h3 {
   font-weight: 300;
 }
 
+@media (max-width: 500px) {
+  .contact-page-left p {
+    width: 92%;
+    margin-left: 4%;
+  }
+}
+
 .contact-page-right {
   width: 50%;
+}
+
+@media (max-width: 500px) {
+  .contact-page-right {
+    width: 100%;
+  }
 }
