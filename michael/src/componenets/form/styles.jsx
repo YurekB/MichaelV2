@@ -21,12 +21,20 @@ export const ThankContainer = styled.div``;
 export const ThankHead = styled.h2`
   font-weight: 500;
   font-size: 45px;
+  @media (max-width: 500px) {
+    font-size: 30px;
+    margin-left: 4%;
+  }
 `;
 
 export const ThankText = styled.p`
   width: 80%;
   font-weight: 300;
   font-size: 20px;
+  @media (max-width: 500px) {
+    font-size: 16px;
+    margin-left: 4%;
+  }
 `;
 
 export const EmailInput = styled.input`
@@ -102,6 +110,7 @@ export const FormTopContainer = styled.div`
   display: flex;
   gap: 20px;
   width: 100%;
+  max-width: 100%;
   @media (max-width: 500px) {
     width: 92%;
     margin: auto;

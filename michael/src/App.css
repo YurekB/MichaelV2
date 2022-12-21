@@ -305,7 +305,7 @@ footer h3 {
 
 @media (max-width: 500px) {
   .contact-page-left h1 {
-    font-size: 35px;
+    font-size: 30px;
     margin: auto;
     width: fit-content;
     margin-top: 25px;
@@ -327,6 +327,8 @@ footer h3 {
   .contact-page-left p {
     width: 92%;
     margin-left: 4%;
+    margin-bottom: 10px;
+    margin-top: 30px;
   }
 }
 
