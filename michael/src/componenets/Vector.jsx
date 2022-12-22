@@ -7,8 +7,8 @@ const Vector = () => {
         <h2>Let’s Work Together</h2>
         <p>
           We’re always looking for new opportunities and are comfortable working
-          internationally. Please get in touch and one of our project managers
-          will contact you about beginning the proposal process.
+          nationally. Please get in touch and we will contact you about
+          beginning the development journey.
         </p>
         <Link to="/contact">
           <button>Contact Us</button>

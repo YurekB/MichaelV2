@@ -8,10 +8,12 @@ import {
   Right,
   RightImg,
   RightImg2,
+  RightImg3,
 } from "./styles";
 import mainInfo from "../../assets/poland/mainIngo.JPG";
 import one from "../../assets/poland/1.JPG";
 import two from "../../assets/poland/2.JPG";
+import three from "../../assets/poland/3.JPG";
 import { useEffect } from "react";
 
 const Pruszowice = ({ activePage, setActivePage }) => {
@@ -33,6 +35,7 @@ const Pruszowice = ({ activePage, setActivePage }) => {
         <Right>
           <RightImg src={one} />
           <RightImg2 src={two} />
+          <RightImg3 src={three} />
         </Right>
       </ImagesContainer>
     </Container>

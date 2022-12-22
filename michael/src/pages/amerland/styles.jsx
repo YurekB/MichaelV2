@@ -8,6 +8,9 @@ export const Head = styled.h2`
   font-size: 40px;
   font-weight: 600;
   text-align: center;
+  @media (max-width: 500px) {
+    font-size: 30px;
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -31,6 +34,9 @@ export const ImagesContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Image = styled.img`
@@ -38,14 +44,23 @@ export const Image = styled.img`
   height: 500px;
   object-fit: cover;
   margin-bottom: 5%;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;
 
 export const MainImage = styled.img`
   width: 35%;
   margin-left: 4%;
   margin-right: 4%;
+  @media (max-width: 500px) {
+    width: 92%;
+  }
 `;
 
 export const TempCont = styled.div`
   display: flex;
+  @media (max-width: 500px) {
+    flex-direction: column-reverse;
+  }
 `;

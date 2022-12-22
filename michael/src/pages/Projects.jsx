@@ -8,17 +8,23 @@ import {
   Head,
   Heading,
   Image,
+  Image2,
+  Image3,
   InfoText,
+  LSCont,
   ProjContainer,
+  Testimonial,
+  TestText,
 } from "./styles";
 import rectory from "../assets/rectory.jpg";
 import artisan from "../assets/45.jpg";
 import sandycroft from "../assets/sandycroft.jpg";
+import img from "../assets";
 
 const Projects = ({ setActivePage, activePage }) => {
   useEffect(() => {
     setActivePage("projects");
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, [setActivePage]);
 
   const onClick = () => {
@@ -41,19 +47,29 @@ const Projects = ({ setActivePage, activePage }) => {
       <ProjContainer>
         <Amerland activePage={activePage} setActivePage={setActivePage} />
       </ProjContainer>
-      <ProjContainer>
-        <Heading>Sheepfoot Lane, Prestwich</Heading>
-        <InfoText>
-          Loft conversion into habitable room including rear dormers and
-          internal floor reconfiguration.
-        </InfoText>
-      </ProjContainer>
+
       <ProjContainer>
         <Heading>Leinster Square, Westminster</Heading>
         <InfoText>
-          Loft conversion into habitable room including rear dormers and
-          internal floor reconfiguration.
+          Conversion of existing empty Electrical Company vault into habitable
+          space comprising a study room and shower set within Grade 2 Victorian
+          Terraced house.
         </InfoText>
+        <Image2 src={img.ls1} />
+        <LSCont>
+          <Image3 src={img.ls2} />
+          <Image3 src={img.ls3} />
+        </LSCont>
+        <Image2 src={img.ls4} />
+        <Testimonial>Client’s testimonial</Testimonial>
+        <TestText>
+          Michael helped me to convert an old Victorian vault area in my next
+          office! Not the easiest of the projects given my building is grade II
+          listed in central London. Michael has been attentive, measured in
+          thinking of possible solutions and at the end we made it! creative,
+          precise and pragmatic - I would definitely recommend him.
+          <b> Gianluca M.</b>
+        </TestText>
       </ProjContainer>
       <ProjContainer>
         <Heading>Rectory Lane, Prestwich</Heading>

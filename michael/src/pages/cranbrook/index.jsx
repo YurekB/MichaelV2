@@ -12,6 +12,9 @@ import one from "../../assets/cranbrook/1.jpg";
 import two from "../../assets/cranbrook/2.jpg";
 import three from "../../assets/cranbrook/3.jpg";
 import four from "../../assets/cranbrook/4.jpg";
+import five from "../../assets/cranbrook/5.jpg";
+import six from "../../assets/cranbrook/6.jpg";
+
 import { useEffect } from "react";
 
 const Cranbrook = ({ activePage, setActivePage }) => {
@@ -40,6 +43,7 @@ const Cranbrook = ({ activePage, setActivePage }) => {
         <Image src={three} />
         <Image src={four} />
       </ImagesContainer>
+
       <Testimonial>Client’s testimonial</Testimonial>
       <TestText>
         Michael did a great job on the design for the renovation of my 3 bedroom

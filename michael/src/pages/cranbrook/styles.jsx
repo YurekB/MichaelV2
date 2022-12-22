@@ -8,6 +8,9 @@ export const Head = styled.h2`
   font-size: 40px;
   font-weight: 600;
   text-align: center;
+  @media (max-width: 500px) {
+    font-size: 30px;
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -25,10 +28,6 @@ export const InfoText = styled.p`
   margin: auto;
 `;
 
-export const MainImg = styled.img`
-  width: 65%;
-`;
-
 export const ImagesContainer = styled.div`
   margin: 0 4% 0 4%;
   width: 92%;
@@ -36,6 +35,9 @@ export const ImagesContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Image = styled.img`
@@ -43,6 +45,9 @@ export const Image = styled.img`
   height: 500px;
   object-fit: cover;
   margin-bottom: 5%;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;
 
 export const Testimonial = styled.h3`

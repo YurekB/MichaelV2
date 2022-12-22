@@ -30,6 +30,14 @@ export const Image = styled.img`
   width: 60%;
 `;
 
+export const Image2 = styled.img`
+  width: 80%;
+  margin-bottom: 20px;
+`;
+export const Image3 = styled.img`
+  width: 45%;
+`;
+
 export const BackToTop = styled.div`
   width: 100px;
   padding: 5px 0 5px 0;
@@ -44,4 +52,20 @@ export const BackToTop = styled.div`
   :hover {
     cursor: pointer;
   }
+`;
+
+export const LSCont = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+`;
+
+export const Testimonial = styled.h3`
+  text-align: center;
+  font-size: 25px;
+`;
+
+export const TestText = styled.p`
+  font-weight: 300;
+  margin: 0 4% 5% 4%;
 `;
