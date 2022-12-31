@@ -24,7 +24,7 @@ import img from "../assets";
 const Projects = ({ setActivePage, activePage }) => {
   useEffect(() => {
     setActivePage("projects");
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, [setActivePage]);
 
   const onClick = () => {

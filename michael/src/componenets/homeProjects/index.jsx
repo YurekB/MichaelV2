@@ -15,25 +15,25 @@ const HomeProjects = () => {
   return (
     <Container>
       <ProjectContainer>
-        <Link to="/projects/pruszowice">
+        <Link to="/pruszowice">
           <Image src={poland} />
           <ProjectName>Pruszowice, Poland</ProjectName>
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/projects/cranbrook">
+        <Link to="/cranbrook">
           <Image2 src={cran} />
           <ProjectName>Cranbrook Road</ProjectName>
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/projects/cuckoo">
+        <Link to="/cuckoo">
           <Image2 src={cuckoo} />
           <ProjectName>Cuckoo Lane</ProjectName>
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/projects/amerland">
+        <Link to="/amerland">
           <Image2 src={amerland} />
           <ProjectName>Amerland Road</ProjectName>
         </Link>

@@ -12,6 +12,7 @@ import Pruszowice from "./pages/pruszowice";
 import Cranbrook from "./pages/cranbrook";
 import Cuckoo from "./pages/cuckoo";
 import Amerland from "./pages/amerland";
+import ProjectsNew from "./pages/ProjectsNew";
 function App() {
   const [activePage, setActivePage] = useState("home");
 
@@ -35,7 +36,10 @@ function App() {
           <Route
             path="/projects"
             element={
-              <Projects activePage={activePage} setActivePage={setActivePage} />
+              <ProjectsNew
+                activePage={activePage}
+                setActivePage={setActivePage}
+              />
             }
           />
           <Route
@@ -44,17 +48,9 @@ function App() {
               <Contact activePage={activePage} setActivePage={setActivePage} />
             }
           />
+
           <Route
-            path="/projects/:project_id"
-            element={
-              <IndividualProject
-                activePage={activePage}
-                setActivePage={setActivePage}
-              />
-            }
-          />
-          <Route
-            path="/projects/pruszowice"
+            path="/pruszowice"
             element={
               <Pruszowice
                 activePage={activePage}
@@ -63,7 +59,7 @@ function App() {
             }
           />
           <Route
-            path="/projects/cranbrook"
+            path="/cranbrook"
             element={
               <Cranbrook
                 activePage={activePage}
@@ -72,13 +68,13 @@ function App() {
             }
           />
           <Route
-            path="/projects/cuckoo"
+            path="/cuckoo"
             element={
               <Cuckoo activePage={activePage} setActivePage={setActivePage} />
             }
           />
           <Route
-            path="/projects/amerland"
+            path="/amerland"
             element={
               <Amerland activePage={activePage} setActivePage={setActivePage} />
             }
