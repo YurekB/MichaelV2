@@ -20,6 +20,7 @@ export const InfoContainer = styled.div`
 export const InfoCont = styled.div`
   text-align: center;
   margin-bottom: 4%;
+  padding: 0 4%;
 `;
 
 export const InfoText = styled.p`

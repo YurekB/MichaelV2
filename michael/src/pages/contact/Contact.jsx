@@ -13,9 +13,10 @@ const Contact = ({ setActivePage, activePage }) => {
       <div className="contact-page-left">
         <h1>Lets work together</h1>
         <p>
-          Further case studies available upon request. Please provide some
-          information on your project or goals and we’ll move the conversation
-          on from there.
+          We are based in Prestwich and offer a range of contemporary, creative
+          and personal architectural services. Using our extensive expertise we
+          will guide you through all aspects of building design, construction
+          and project management.
         </p>
         <ContactAdd>
           <Text>123 Demo Street Copenhagen, Denmark</Text>

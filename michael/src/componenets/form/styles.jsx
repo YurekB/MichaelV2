@@ -112,7 +112,9 @@ export const FormTopContainer = styled.div`
   width: 100%;
   max-width: 100%;
   @media (max-width: 500px) {
-    width: 92%;
+    width: 100%;
     margin: auto;
+    flex-direction: column;
+    gap: 0;
   }
 `;

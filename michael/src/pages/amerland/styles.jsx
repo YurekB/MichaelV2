@@ -25,6 +25,9 @@ export const InfoText = styled.p`
   font-weight: 300;
   max-width: 80%;
   margin: auto;
+  @media (max-width: 500px) {
+    margin-bottom: 4%;
+  }
 `;
 
 export const ImagesContainer = styled.div`

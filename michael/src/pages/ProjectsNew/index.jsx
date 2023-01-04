@@ -1,7 +1,8 @@
-import { Container, Head, Inner } from "./styles";
+import { Container, Head, Inner, Secondary } from "./styles";
 import projectsArray from "../../data/projects";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import img from "../../assets";
 
 const ProjectsNew = ({ activePage, setActivePage }) => {
   useEffect(() => {
@@ -11,20 +12,22 @@ const ProjectsNew = ({ activePage, setActivePage }) => {
 
   return (
     <Container>
-      <Head>Projects</Head>
-
-      <Inner>
-        {projectsArray.map((proj) => {
-          return (
-            <Link to={proj.link}>
-              <p>
-                {"> "}
-                {proj.name}
-              </p>
-            </Link>
-          );
-        })}
-      </Inner>
+      <Secondary>
+        <Head>Projects</Head>
+        <Inner>
+          {projectsArray.map((proj) => {
+            return (
+              <Link to={proj.link}>
+                <p>
+                  {"> "}
+                  {proj.name}
+                </p>
+              </Link>
+            );
+          })}
+        </Inner>
+      </Secondary>
+      <img src={img.ls3} />
     </Container>
   );
 };
