@@ -10,14 +10,15 @@ import poland from "../../assets/poland/main.JPG";
 import cran from "../../assets/cranbrook/main.jpg";
 import cuckoo from "../../assets/cuckoo/3.JPG";
 import amerland from "../../assets/amerland/main.jpg";
-
+import windermere from "../../assets/w3.jpg";
+import unsworth from "../../assets/unsworth.png";
 const HomeProjects = () => {
   return (
     <Container>
       <ProjectContainer>
-        <Link to="/pruszowice">
-          <Image src={poland} />
-          <ProjectName>Pruszowice, Poland</ProjectName>
+        <Link to="/windermere">
+          <Image src={windermere} />
+          <ProjectName>Windermere Road, Ealing London</ProjectName>
         </Link>
       </ProjectContainer>
       <ProjectContainer>
@@ -33,9 +34,9 @@ const HomeProjects = () => {
         </Link>
       </ProjectContainer>
       <ProjectContainer>
-        <Link to="/amerland">
-          <Image2 src={amerland} />
-          <ProjectName>Amerland Road</ProjectName>
+        <Link to="/unsworth">
+          <Image2 src={unsworth} />
+          <ProjectName>Unsworth Street, Radcliffe</ProjectName>
         </Link>
       </ProjectContainer>
     </Container>

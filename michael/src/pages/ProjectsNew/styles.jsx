@@ -2,36 +2,49 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-
-  img {
-    @media (max-width: 1000px) {
-      display: none;
-    }
-  }
 `;
 
 export const Inner = styled.div`
-  width: 700px;
+  width: 96%;
   max-width: 96vw;
+  display: flex;
+  flex-wrap: wrap;
 
-  @media (max-width: 700px) {
-    margin: auto;
-    width: fit-content;
+  justify-content: space-between;
+  @media (max-width: 710px) {
+    width: 92%;
   }
 
   @media (max-width: 500px) {
     margin-left: 4%;
   }
+
+  div {
+    width: 30.3%;
+    margin-bottom: 50px;
+    @media (max-width: 710px) {
+      width: 48%;
+      margin-bottom: 0px;
+      margin-top: 20px;
+    }
+    :hover {
+      opacity: 80%;
+    }
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      @media (max-width: 710px) {
+        height: 150px;
+      }
+    }
+  }
   p {
     font-weight: 500;
     font-size: 20px;
-    transition: all 0.3s ease;
+
     @media (max-width: 500px) {
       font-size: 16px;
-    }
-    :hover {
-      font-size: 22px;
-      transition: all 0.3s ease;
     }
   }
 

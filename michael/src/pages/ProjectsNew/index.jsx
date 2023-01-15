@@ -17,17 +17,16 @@ const ProjectsNew = ({ activePage, setActivePage }) => {
         <Inner>
           {projectsArray.map((proj) => {
             return (
-              <Link to={proj.link}>
-                <p>
-                  {"> "}
-                  {proj.name}
-                </p>
-              </Link>
+              <div>
+                <Link to={proj.link}>
+                  <img src={proj.img} />
+                  <p>{proj.name}</p>
+                </Link>
+              </div>
             );
           })}
         </Inner>
       </Secondary>
-      <img src={img.ls3} />
     </Container>
   );
 };
