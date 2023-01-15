@@ -17,7 +17,7 @@ header {
   margin-right: 4%;
   align-items: center;
   height: 100px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 @media (max-width: 1000px) {
@@ -109,9 +109,9 @@ a:hover {
 }
 
 .home-top h2 {
-  width: 67%;
-  font-weight: 400;
-  font-size: 50px;
+  width: 80%;
+  font-weight: 300;
+  font-size: 18px;
   margin-left: 4%;
 }
 

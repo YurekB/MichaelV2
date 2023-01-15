@@ -19,8 +19,8 @@ const Contact = ({ setActivePage, activePage }) => {
           and project management.
         </p>
         <ContactAdd>
-          <Text>123 Demo Street Copenhagen, Denmark</Text>
-          <Text>(555) 555-5555 email@example.com</Text>
+          <Text>21 Sunnyfield Road Prestwich, M25 2RD</Text>
+          <Text>07742 524783 michael@cupial.co.uk</Text>
         </ContactAdd>
       </div>
       <div className="contact-page-right">

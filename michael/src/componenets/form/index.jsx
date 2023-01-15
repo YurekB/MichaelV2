@@ -21,9 +21,9 @@ const Form = () => {
   const FORM_ENDPOINT_TEST = process.env.REACT_APP_FORM_TEST;
 
   const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true);
-    }, 100);
+    // setTimeout(() => {
+    setSubmitted(true);
+    // }, 100);
   };
 
   if (submitted) {
@@ -39,10 +39,9 @@ const Form = () => {
     <div className="contactPage">
       <FormContainer>
         <form
-          action={FORM_ENDPOINT_TEST}
+          action="https://public.herotofu.com/v1/b7ff7110-4d35-11ed-8970-6943e4ac8982"
           onSubmit={handleSubmit}
           method="POST"
-          target="_blank"
           class="form"
         >
           <FormTopContainer>

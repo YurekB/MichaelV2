@@ -46,7 +46,7 @@ export const Image = styled.img`
 `;
 
 export const ProjectName = styled.p`
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   margin-top: 15px;
 `;

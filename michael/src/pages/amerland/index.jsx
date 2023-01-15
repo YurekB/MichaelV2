@@ -24,7 +24,7 @@ const Amerland = ({ activePage, setActivePage }) => {
 
   return (
     <Container>
-      <Head>34 Amerland Road in Wandsworth, London</Head>
+      <Head>Amerland Road in Wandsworth, London</Head>
       <InfoCont>
         <TempCont>
           <MainImage src={main} />

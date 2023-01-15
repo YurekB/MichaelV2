@@ -26,7 +26,7 @@ const Cranbrook = ({ activePage, setActivePage }) => {
 
   return (
     <Container>
-      <Head>30 Cranbrook Road in Chiswick, London</Head>
+      <Head>Cranbrook Road in Chiswick, London</Head>
       <InfoCont>
         <InfoText>
           Single storey extension and internal alteration to floor layout to

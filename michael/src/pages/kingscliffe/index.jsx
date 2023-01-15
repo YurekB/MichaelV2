@@ -35,7 +35,9 @@ const Kingscliffe = ({ activePage, setActivePage }) => {
         </InfoCont>
 
         <Image2 src={img.k1} />
-        <Image2 src={img.k2} />
+        <div>
+          <Image3 src={img.k2} />
+        </div>
         <Image2 src={img.k3} />
       </Inner>
     </Container>

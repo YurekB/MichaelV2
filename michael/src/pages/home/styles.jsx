@@ -13,3 +13,10 @@ export const Text = styled.p`
   margin: 25px 0;
   font-weight: 300;
 `;
+
+export const MainImage = styled.img`
+  width: 100vw;
+  height: 750px;
+  object-fit: cover;
+  object-position: center 65%;
+`;

@@ -29,7 +29,7 @@ const Cuckoo = ({ activePage, setActivePage }) => {
 
   return (
     <Container>
-      <Head>47 Cuckoo Lane, Prestwich</Head>
+      <Head>Cuckoo Lane, Prestwich</Head>
       <InfoCont>
         <InfoText>
           Hip to gable roof extension and loft conversion into habitable room

@@ -33,11 +33,9 @@ export const Image2 = styled.img`
   margin-bottom: 20px;
 `;
 export const Image3 = styled.img`
-  width: 60%;
-  @media (max-width: 500px) {
-    width: 100%;
-    margin-bottom: 4%;
-  }
+  width: 65%;
+  float: left;
+  margin-bottom: 20px;
 `;
 export const Image4 = styled.img`
   width: 35%;

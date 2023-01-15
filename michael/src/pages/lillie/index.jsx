@@ -23,7 +23,7 @@ const Lillie = ({ activePage, setActivePage }) => {
   return (
     <Container>
       <Inner>
-        <Head>35 Lillie Road in Fulham, London</Head>
+        <Head>Lillie Road in Fulham, London</Head>
         <InfoCont>
           <InfoText>
             Two storey extension of existing first floor flat above driveway
