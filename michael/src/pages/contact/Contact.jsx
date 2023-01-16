@@ -20,7 +20,10 @@ const Contact = ({ setActivePage, activePage }) => {
         </p>
         <ContactAdd>
           <Text>21 Sunnyfield Road Prestwich, M25 2RD</Text>
-          <Text>07742 524783 michael@cupial.co.uk</Text>
+          <Text>
+            07742 524783{" "}
+            <a href="mailto:michael@cupial.co.uk">michael@cupial.co.uk</a>
+          </Text>
         </ContactAdd>
       </div>
       <div className="contact-page-right">

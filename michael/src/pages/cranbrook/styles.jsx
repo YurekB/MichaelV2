@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Head = styled.h2`
@@ -30,23 +33,58 @@ export const InfoText = styled.p`
 
 export const ImagesContainer = styled.div`
   margin: 0 4% 0 4%;
-  width: 92%;
+  width: 80%;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  @media (max-width: 500px) {
+
+  @media (max-width: 1100px) {
+    width: 90%;
+  }
+  @media (max-width: 850px) {
+    width: 92%;
+  }
+  @media (max-width: 750px) {
     flex-direction: column;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    @media (max-width: 750px) {
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    }
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
   }
 `;
 
 export const Image = styled.img`
-  width: 47.5%;
-  height: 500px;
-  object-fit: cover;
+  width: 60%;
+  height: 840px;
+  /* object-fit: cover; */
   margin-bottom: 5%;
-  @media (max-width: 500px) {
+  @media (max-width: 750px) {
     width: 100%;
+  }
+`;
+
+export const Image2 = styled(Image)`
+  width: 100%;
+  height: 400px;
+
+  margin-bottom: 40px;
+  @media (max-width: 750px) {
+    width: 48%;
+  }
+  @media (max-width: 600px) {
+    width: auto;
+    height: auto;
   }
 `;
 

@@ -13,7 +13,7 @@ import art1 from "../assets/art1.jpg";
 import s1 from "../assets/s1.jpg";
 import m2 from "../assets/m2.jpg";
 import e1 from "../assets/e1.jpg";
-import l1 from "../assets/l1.jpg";
+import l1 from "../assets/lillie.png";
 import k2 from "../assets/k2.jpg";
 import g1 from "../assets/g1.jpg";
 

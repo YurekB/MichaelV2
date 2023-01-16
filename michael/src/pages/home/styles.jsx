@@ -19,4 +19,8 @@ export const MainImage = styled.img`
   height: 750px;
   object-fit: cover;
   object-position: center 65%;
+
+  @media (max-width: 750px) {
+    height: 250px;
+  }
 `;

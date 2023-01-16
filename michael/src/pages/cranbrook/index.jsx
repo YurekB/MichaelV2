@@ -2,6 +2,7 @@ import {
   Container,
   Head,
   Image,
+  Image2,
   ImagesContainer,
   InfoCont,
   InfoText,
@@ -39,9 +40,10 @@ const Cranbrook = ({ activePage, setActivePage }) => {
       </InfoCont>
       <ImagesContainer>
         <Image src={one} />
-        <Image src={two} />
-        <Image src={three} />
-        <Image src={four} />
+        <div>
+          <Image2 src={four} />
+          <Image2 src={two} />
+        </div>
       </ImagesContainer>
 
       <Testimonial>Client’s testimonial</Testimonial>
